@@ -107,7 +107,7 @@ backend/
 └── package.json                 # Dependencies & scripts
 
 ```
-#Backend Setup Instructions
+# Backend Setup Instructions
 ```
     npm install
 ```
@@ -140,7 +140,7 @@ http://localhost:5173
 
 
 ## Api Overview
-#Authentication
+# Authentication
 ```text
 Method	Endpoint	        Description
 POST	/api/auth/signup	Register new user
@@ -171,6 +171,103 @@ Activity
 Method	Endpoint	    Description
 GET	    /api/activity	Get recent activity
 ```
+
+## 📸 Frontend Screenshots
+
+This section showcases the key UI screens of the Task Manager application to
+give a visual overview of the user experience and functionality.
+
+> All screenshots are taken from the running application.
+
+---
+
+### 🔐 Login Page
+Secure login interface for existing users.
+
+<img width="1265" height="821" alt="Screenshot 2026-01-13 235929" src="https://github.com/user-attachments/assets/08401f3b-d387-4955-839b-de48c15afed6" />
+
+---
+
+### 📝 Sign Up Page
+User registration page for new users.
+
+<img width="1292" height="846" alt="Screenshot 2026-01-14 000017" src="https://github.com/user-attachments/assets/a1c0ac84-a660-46ce-8c64-e2b295ce72fa" />
+
+
+---
+
+### 📊 Dashboard (Kanban Board)
+Main dashboard displaying tasks categorized into:
+- Pending
+- In Progress
+- Completed  
+
+Includes drag-and-drop functionality.
+
+<img width="1880" height="915" alt="Screenshot 2026-01-14 000400" src="https://github.com/user-attachments/assets/1025c7b0-d901-4b3f-8315-965e26867156" />
+
+
+---
+
+### ➕ Create Task Modal
+Popup modal for creating a new task with title, description, status, and due date.
+
+<img width="1796" height="871" alt="Screenshot 2026-01-13 235820" src="https://github.com/user-attachments/assets/f95a4077-7d57-49c8-b1dc-87cb9e479c6b" />
+
+
+---
+
+### 🔄 Drag & Drop Tasks
+Tasks can be dragged between columns and status updates persist automatically.
+
+<img width="1863" height="744" alt="Screenshot 2026-01-14 000624" src="https://github.com/user-attachments/assets/6b5128e1-8807-4818-b121-61742186bc31" />
+
+
+---
+
+### 📜 Recent Activity
+Displays recent user actions such as:
+- Task creation
+- Status updates
+- Task deletion  
+
+This section updates automatically.
+
+<img width="1819" height="605" alt="Screenshot 2026-01-14 000451" src="https://github.com/user-attachments/assets/db269f33-e733-4c12-bb62-138bc4b9fdf2" />
+
+
+---
+
+### 👤 Profile Page
+User profile page showing:
+- Name (read-only)
+- Email (read-only)
+- Password update
+- Delete profile option
+
+<img width="1334" height="794" alt="Screenshot 2026-01-14 000937" src="https://github.com/user-attachments/assets/3503891d-5ea4-44f4-9b1e-82ef898ba0e2" />
+
+
+---
+
+## 📂 Screenshots Folder Structure
+
+Place all images inside a dedicated folder:
+
+```text
+screenshots/
+├── login.png
+├── signup.png
+├── dashboard.png
+├── create-task.png
+├── drag-drop.png
+├── recent-activity.png
+└── profile.png
+```
+
+
+# Author
+Rohit Oraon
 
 
 
