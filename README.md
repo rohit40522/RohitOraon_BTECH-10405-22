@@ -145,20 +145,31 @@ Method	Endpoint	Description
 POST	/api/auth/signup	Register new user
 POST	/api/auth/login	Login user
 POST	/api/auth/logout	Logout (client-side)
+
+```
+
+```text
 User Profile
 Method	Endpoint	Description
 GET	/api/users/me	Get user profile
 PUT	/api/users/me	Update password
 DELETE	/api/users/me	Delete user profile
+```
+
+```text
 Tasks
 Method	Endpoint	Description
 POST	/api/tasks	Create task
 GET	/api/tasks	Get all user tasks
 PUT	/api/tasks/:id	Update task
 DELETE	/api/tasks/:id	Delete task permanently
+```
+
+```text
 Activity
 Method	Endpoint	Description
 GET	/api/activity	Get recent activity
+```
 
 
 
