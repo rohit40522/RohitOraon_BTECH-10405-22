@@ -116,4 +116,53 @@ backend/
     JWT_SECRET=your_jwt_secret
     FRONTEND_URL=http://localhost:5173
 ```
+```
+npm start
+```
+```
+http://localhost:5000
+```
+
+# Frontend Setup Instructions
+```
+cd frontend
+```
+```
+npm install
+```
+```
+npm run dev
+```
+```
+http://localhost:5173
+```
+
+
+## Api Overview
+#Authentication
+```text
+Method	Endpoint	Description
+POST	/api/auth/signup	Register new user
+POST	/api/auth/login	Login user
+POST	/api/auth/logout	Logout (client-side)
+User Profile
+Method	Endpoint	Description
+GET	/api/users/me	Get user profile
+PUT	/api/users/me	Update password
+DELETE	/api/users/me	Delete user profile
+Tasks
+Method	Endpoint	Description
+POST	/api/tasks	Create task
+GET	/api/tasks	Get all user tasks
+PUT	/api/tasks/:id	Update task
+DELETE	/api/tasks/:id	Delete task permanently
+Activity
+Method	Endpoint	Description
+GET	/api/activity	Get recent activity
+
+
+
+
+
+
 
