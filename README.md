@@ -141,9 +141,9 @@ http://localhost:5173
 ## Api Overview
 #Authentication
 ```text
-Method	Endpoint	Description
+Method	Endpoint	        Description
 POST	/api/auth/signup	Register new user
-POST	/api/auth/login	Login user
+POST	/api/auth/login	    Login user
 POST	/api/auth/logout	Logout (client-side)
 
 ```
@@ -158,17 +158,17 @@ DELETE	/api/users/me	Delete user profile
 
 ```text
 Tasks
-Method	Endpoint	Description
-POST	/api/tasks	Create task
-GET	/api/tasks	Get all user tasks
-PUT	/api/tasks/:id	Update task
+Method	Endpoint	    Description
+POST	/api/tasks	    Create task
+GET	    /api/tasks	    Get all user tasks
+PUT	    /api/tasks/:id	Update task
 DELETE	/api/tasks/:id	Delete task permanently
 ```
 
 ```text
 Activity
-Method	Endpoint	Description
-GET	/api/activity	Get recent activity
+Method	Endpoint	    Description
+GET	    /api/activity	Get recent activity
 ```
 
 
