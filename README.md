@@ -4,6 +4,12 @@ A full-stack **Task Management (Kanban) application** that allows users to manag
 
 This project demonstrates **modern full-stack development practices** using **Node.js, Express, MongoDB, and React**.
 
+## Frontend URL
+https://task-manager-frontend-hr3h.onrender.com/
+
+## Backend URL
+https://task-manager-backend-ay3i.onrender.com
+
 ---
 
 ## 🚀 Project Overview
